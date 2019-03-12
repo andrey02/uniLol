@@ -11,13 +11,8 @@ import org.springframework.core.env.Environment;
 @SpringBootApplication
 public class UnilolApplication {
 
-
-
     public static void main(String[] args) {
         SpringApplication.run(UnilolApplication.class, args);
-
-
-
     }
 
 }
