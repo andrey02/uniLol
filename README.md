@@ -17,3 +17,5 @@ Linux
 Testar Swagger-UI
 
 localhost:8080/swagger-ui.html
+
+Para conseguir pegar informações da API da Riot é preciso atualizar a Key da Riot na aplicação. Para atualizar basta usar o endpoint /api/key/{riotKey}
