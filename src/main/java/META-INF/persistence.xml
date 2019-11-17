@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="unilol">
+		<class>com.pgpain.unilol.model.Campeao</class>
+		<class>com.pgpain.unilol.model.Item</class>
+		<class>com.pgpain.unilol.model.ItemDaPartidaDoUsuario</class>
+		
+		<class>com.pgpain.unilol.model.Partida</class>
+		<class>com.pgpain.unilol.model.PartidaDoUsuario</class>
+		<class>com.pgpain.unilol.model.Runa</class>
+		<class>com.pgpain.unilol.model.Spell</class>
+		<class>com.pgpain.unilol.model.Usuario</class>
+		<class>com.pgpain.unilol.model.EventoDaPartida</class>
+		<class>com.pgpain.unilol.model.DetalhePartidaUsuario</class>
+		<class>com.pgpain.unilol.model.Timeline</class>
+		<class>com.pgpain.unilol.model.FilaDeProcesso</class>
+	</persistence-unit>
+</persistence>

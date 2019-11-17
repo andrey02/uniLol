@@ -1,0 +1,14 @@
+//	@Query("Select SUM(u.ouro) from Timeline u where PartidaDoUsuario in (1) and tempo = 2")
+//	Long findOuroByPartidasDosUsuarios(List<PartidaDoUsuario> partidaDoUsuario,Long tempo);
+//	
+//	@Query("Select SUM(u.ouroAdquirido) from Timeline u where PartidaDoUsuario in (1) and tempo = 2")
+//	Long findOuroAdquiridoByPartidasDosUsuarios(List<PartidaDoUsuario> partidaDoUsuario,Long tempo);
+//	
+//	@Query("Select SUM(u.qtdCreep) from Timeline u where PartidaDoUsuario in (1) and tempo = 2")
+//	Long findQtdCreepByPartidasDosUsuarios(List<PartidaDoUsuario> partidaDoUsuario,Long tempo);
+//	
+//	@Query("Select SUM(u.experiencia) from Timeline u where PartidaDoUsuario in (1) and tempo = 2")
+//	Long findExperienciaByPartidasDosUsuarios(List<PartidaDoUsuario> partidaDoUsuario,Long tempo);
+//	
+//	@Query("Select SUM(u.qtdMonstroNeutro) from Timeline u where PartidaDoUsuario in (1) and tempo = 2")
+//	Long findQtdMonstroNeutroByPartidasDosUsuarios(List<PartidaDoUsuario> partidaDoUsuario,Long tempo);

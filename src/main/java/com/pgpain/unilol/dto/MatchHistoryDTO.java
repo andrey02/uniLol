@@ -1,18 +1,18 @@
 package com.pgpain.unilol.dto;
 
-import com.merakianalytics.orianna.types.core.match.MatchHistory;
-import com.merakianalytics.orianna.types.data.match.MatchList;
-import com.merakianalytics.orianna.types.dto.match.Match;
+import java.util.List;
+
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @Getter
 @Setter
-public class MatchHistoryDTO {
+public class MatchHistoryDto {
 
-    MatchList matchs;
-
+	List<MatchDto> partidas;
+	UsuarioDto usuario;
+	String dataInicial;
+	String dataFinal;
+	Boolean updatable = false;
 
 }

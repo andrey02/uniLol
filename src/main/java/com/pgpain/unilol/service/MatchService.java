@@ -1,11 +1,17 @@
 package com.pgpain.unilol.service;
 
-import com.merakianalytics.orianna.types.dto.match.Match;
-import com.pgpain.unilol.dto.MatchHistoryDTO;
+import com.pgpain.unilol.dto.MatchHistoryDto;
+import com.pgpain.unilol.model.Usuario;
 
 public interface MatchService {
 
-    Match getMatchById(Long matchId);
 
-    MatchHistoryDTO getMatchHistory(String summonerName, String region);
+    MatchHistoryDto getMatchHistoryFromAPI(Usuario usuario);
+    
+    MatchHistoryDto getMatchHistoryFromDB(Usuario usuario);
+    
+    MatchHistoryDto getMatchHistoryFromAPI(Usuario usuario, Long startIndex, Long finalIndex);
+    
+    
+    
 }
