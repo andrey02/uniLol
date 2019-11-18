@@ -31,3 +31,7 @@ segue link do front end da aplicação: <a href="https://github.com/andrey02/uni
 
 # Créditos
 Aplicação foi desenvolvida para um projeto da faculdade em grupo, contendo 6 integrantes: Andrei(Eu), Ana, Pedro, Nildo, Emi e Victor.
+
+Email-me: andreiteixeira02@gmail.com
+
+Connect with me at <a href="https://www.linkedin.com/in/andrei-teixeira-852b8211a/">LinkedIn</a>
