@@ -3,6 +3,11 @@ Aplicação baseada na API da Riot Games que visa auxiliar usuários de League o
 
 # Rodar a aplicação
 
+<b>Prerequisitos<b>
+  Java 8
+  Maven
+  MySql
+  
 Windows
 1. ir até a raiz do projeto, onde se encontra o arquivo mvnw.
 2. abrir cmd e mudar para essa pasta.
