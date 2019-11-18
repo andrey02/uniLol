@@ -3,17 +3,19 @@ Aplicação baseada na API da Riot Games que visa auxiliar usuários de League o
 
 # Rodar a aplicação
 
-<b>Prerequisitos<b>
-  Java 8
-  Maven
-  MySql
+<b>Prerequisitos</b>
+  <li>
+  <ul>Java 8</ul>
+  <ul>Maven</ul>
+  <ul>MySql</ul>
+  </>
   
-Windows
+<b>Windows</b>
 1. ir até a raiz do projeto, onde se encontra o arquivo mvnw.
 2. abrir cmd e mudar para essa pasta.
 3. digite o comando: mvnw spring-boot:run
 
-Linux
+<b>Linux</b>
 1. ir até a raiz do projeto, onde se encontra o arquivo mvnw.
 2. digite: ./mvnw spring-boot:run
 
@@ -22,3 +24,10 @@ Linux
 localhost:8080/swagger-ui.html
 
 Para conseguir pegar informações da API da Riot é preciso atualizar a Key da Riot na aplicação. Para atualizar basta usar o endpoint /api/key/{riotKey}
+
+# Front-end
+
+segue link do front end da aplicação: <a href="">
+
+# Créditos
+Aplicação foi desenvolvida para um projeto da faculdade em grupo, contendo 6 integrantes: Andrei(Eu), Ana, Pedro, Nildo, Emi e Victor.
