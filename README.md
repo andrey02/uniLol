@@ -1,5 +1,5 @@
 # uniLol
-Aplicação baseada na API da Riot Games que visa auxiliar usuários de League of Legends a aperfeiçoar e a monitorar sua performance no jogo, tornando sua aprendizagem mais intuitiva e rápida. Ela possibilita a análise dos dados das partidas e do comportamento do próprio usuário ou de seus adversários.
+Aplicação baseada na API da Riot Games que visa auxiliar usuários de League of Legends a aperfeiçoar e a monitorar sua performance no jogo, tornando sua aprendizagem mais intuitiva e rápida. Ela possibilita a análise dos dados das partidas e do comportamento do próprio usuário ou de seus adversários. Existe também dicas para jogadores iniciantes se adptarem aos campeões.
 
 # Rodar a aplicação
 
